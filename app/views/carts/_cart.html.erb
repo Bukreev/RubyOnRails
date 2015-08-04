@@ -1,0 +1,15 @@
+<table>
+  <%= render(cart.line_items) %>
+</table>
+
+<table>
+  <tr>
+    <td><h5>Всего к оплате:</h5></td>
+    <td><%= number_to_currency(cart.total_price) %></td>
+  </tr>
+</table>
+<div id = "buttondel">
+<%= button_to "Оформить заказ", new_order_path, method: :get %>
+<%= button_to "Удалить корзину", cart, method: :delete,
+              data: { confirm: 'Вы уверены?'} %>
+</div>

@@ -1,0 +1,95 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+
+
+
+
+
+
+body{
+    font-size: small;
+}
+
+header{
+    display: block;
+    height: 127px;
+    background-color: #104239;
+}
+
+nav{
+    display: block;
+    position: absolute;
+    top: 130px;
+    left: 0;
+}
+
+#main{
+    position: absolute;
+    left: 300px;
+    #border-left: dotted 5px #593305;
+    #border-top: dotted 5px #593305;
+    padding-left: 15px;
+    width: 1260px;
+    background-color: #EFEBDF;
+}
+
+#cart{
+    position: absolute;
+    top: 400px;
+    border: solid 0px;
+    background-color: #A1F1E6;
+}
+
+li a{
+    text-decoration: none;
+    display: block;
+    background-color: #A1F1E6;
+    width: 80px;
+    height: 70px;
+    border-bottom: solid 0px;
+    border-radius: 100%;
+    margin: 50px
+}
+
+nav li a:link{
+    color: gold;
+}
+
+nav li a:visited{
+    color: red;
+}
+
+nav li a:hover{
+    color: maroon;
+}
+
+nav li a:active{
+
+}
+
+li{
+    display: block;
+ }
+
+ul{
+    padding-left: 10px
+}
+
+#buttondel input{
+    width: 160px;
+}
+
+body{
+    background-color: #47BF9B;
+}
